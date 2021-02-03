@@ -36,7 +36,6 @@ read.question('Enter your name: ', (name) => {
 
 const express = require('express');
 const app = express();
-const fs = require('fs');
 
 app.get('/route',function)
 
