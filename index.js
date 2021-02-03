@@ -37,7 +37,7 @@ read.question('Enter your name: ', (name) => {
 const express = require('express');
 const app = express();
 
-app.get('/route',function)
+//app.get('/route',function)
 
 app.get('/', (request, response) => {
 	response.send('Welcome to Sensei, I hope you are having fun');
