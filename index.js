@@ -1,5 +1,5 @@
 const fs = require('fs');
-const express = require('express');
+const express = require('express'); // use "npm install express" to install tha module
 const app = express();
 console.log('hello world, welcome to sensei!');
 const readline = require('readline');
